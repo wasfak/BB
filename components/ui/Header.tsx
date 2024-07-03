@@ -20,7 +20,7 @@ export default function Header() {
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
           {userId ? (
-            <Link href="/dashboard">
+            <Link href="/">
               <UserButton afterSignOutUrl="/" />
             </Link>
           ) : (
